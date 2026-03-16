@@ -111,9 +111,6 @@ const ProjectsGallery = () => {
                   <p className="text-white/90 text-sm">{project.description}</p>
                 </div>
               </div>
-              <div className="absolute top-4 right-4 bg-[#d4af37] text-[#1a1a1a] px-3 py-1 rounded-full text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Ver detalhes
-              </div>
             </motion.div>
           ))}
         </motion.div>
