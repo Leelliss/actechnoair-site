@@ -10,6 +10,15 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+
+      <a
+  href="https://wa.me/5511933097406?text=Olá,%20gostaria%20de%20um%20orçamento."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-5 right-5 bg-[#25D366] text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:bg-[#20BD5C] transition-all duration-300 hover:scale-105 z-50"
+>
+  WhatsApp
+</a>
     </Router>
   );
 }
