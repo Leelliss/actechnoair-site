@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Mail, MessageCircle } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 const Footer = () => {
   const scrollToSection = sectionId => {
     const element = document.getElementById(sectionId);
@@ -47,19 +47,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold text-[#d4af37] mb-4">Contato</h4>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <MessageCircle className="w-5 h-5 text-[#d4af37]" />
-                <span className="text-white/80 text-sm">(11) 93309-7406</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-[#d4af37]" />
-                <span className="text-white/80 text-sm">actechnoair@gmail.com</span>
-              </div>
-            </div>
-          </div>
-
+  <h4 className="text-lg font-semibold text-[#d4af37] mb-4">Contato</h4>
+  <div className="space-y-3">
+    <div className="flex items-center space-x-3">
+      <MessageCircle className="w-5 h-5 text-[#d4af37]" />
+      <span className="text-white/80 text-sm">(11) 93309-7406</span>
+    </div>
+  </div>
+</div>
           <div>
             <h4 className="text-lg font-semibold text-[#d4af37] mb-4">Redes Sociais</h4>
             <p className="text-sm text-white/70 mb-4">
