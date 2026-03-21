@@ -1,35 +1,58 @@
-<a
-href="https://wa.me/message/3RVKBRJU7BPNI1"
-target="_blank"
-style="
-position: fixed;
-bottom: 20px;
-right: 20px;
-background: #25D366;
-color: white;
-padding: 12px 18px;
-border-radius: 50px;
-display: flex;
-align-items: center;
-gap: 10px;
-font-weight: 600;
-text-decoration: none;
-box-shadow: 0 6px 15px rgba(0,0,0,0.3);
-z-index: 999;
-font-family: Arial, sans-serif;
-"
->
-<img 
-src="https://cdn-icons-png.flaticon.com/512/733/733585.png" 
-width="22"
-style="display: block;"
-/>
-<span>Falar no WhatsApp</span>
-</a>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="generator" content="Hostinger Horizons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC Technoair</title>
+  </head>
+  <body>
+    <div id="root"></div>
 
-<style>
-a:hover {
-  transform: scale(1.05);
-  transition: 0.3s;
-}
-</style>
+    <a
+      href="https://wa.me/message/3RVKBRJU7BPNI1"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-button"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+        width="22"
+        alt="WhatsApp"
+      />
+      <span>Falar no WhatsApp</span>
+    </a>
+
+    <style>
+      .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25D366;
+        color: white;
+        padding: 12px 18px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        font-family: Arial, sans-serif;
+        transition: 0.3s;
+      }
+
+      .whatsapp-button:hover {
+        transform: scale(1.05);
+      }
+
+      .whatsapp-button img {
+        display: block;
+      }
+    </style>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
